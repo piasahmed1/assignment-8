@@ -45,6 +45,7 @@ const Details = () => {
     }
   };
 
+  
   return (
     <section>
       <ContentWrapper>
@@ -75,5 +76,6 @@ const Details = () => {
     </section>
   );
 };
+
 
 export default Details;

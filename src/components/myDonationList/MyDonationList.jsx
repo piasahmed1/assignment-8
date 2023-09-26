@@ -31,7 +31,7 @@ const MyDonationList = ({ donet }) => {
         >
           {category}
         </span>
-        <h1 className="text-2xl font-semibold text-[#0b0b0b] mb-2 w-max">
+        <h1 className="text-2xl font-semibold text-[#0b0b0bec] mb-2 w-max">
           {title}
         </h1>
         <h3
@@ -50,6 +50,8 @@ const MyDonationList = ({ donet }) => {
     </div>
   );
 };
+
+
 MyDonationList.propTypes = {
   donet: PropTypes.object,
 };

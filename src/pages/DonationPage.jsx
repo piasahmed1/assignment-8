@@ -29,12 +29,16 @@ const DonationPage = () => {
   } else {
     content = <p className="text-xl font-bold text-center">You Have No Donation !</p>;
   }
+
+
   return (
     <section>
       <ContentWrapper>
         <>
           <div className="grid place-content-center md:grid-cols-2 gap-6">
             {content}
+
+            
           </div>
           <div className="flex justify-center items-center">
             <button
@@ -51,5 +55,6 @@ const DonationPage = () => {
     </section>
   );
 };
+
 
 export default DonationPage;
