@@ -12,7 +12,8 @@ const DonationList = () => {
       .then((data) => setDonations(data));
   }, []);
 
-  // deside what to render
+
+  
   let content = null;
   if (donations.length > 0) {
     content = donations.map((donation) => (

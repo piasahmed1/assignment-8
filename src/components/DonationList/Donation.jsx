@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const Donation = ({ donation }) => {
   const {id,title,picture,category,category_bg,card_bg,text_and_button_bg,} = donation || {};
 
+  
   return (
     <div
       className="w-[312px] h-[283px] rounded-lg cursor-pointer"

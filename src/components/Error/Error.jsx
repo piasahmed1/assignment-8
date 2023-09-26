@@ -13,6 +13,7 @@ const Error = () => {
           <h1>4</h1>
         </div>
 
+
         <div className="description__404">
           <p className="title__404">Oops! page not found</p>
           <p className="desc__404">
@@ -28,5 +29,6 @@ const Error = () => {
     </main>
   );
 };
+
 
 export default Error;
