@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Donation = ({ donation }) => {
   const {id,title,picture,category,category_bg,card_bg,text_and_button_bg,} = donation || {};
 
-  
+
   return (
     <div
       className="w-[312px] h-[283px] rounded-lg cursor-pointer"
@@ -15,6 +15,7 @@ const Donation = ({ donation }) => {
             src={picture}
             alt={title}
             className="w-full h-[193px] object-cover rounded-t-lg"
+            
           />
         </div>
         <div className="w-full h-[88px] p-4">
@@ -34,6 +35,7 @@ const Donation = ({ donation }) => {
       </Link>
     </div>
   );
+
 };
 Donation.propTypes = {
   donation: PropTypes.object,

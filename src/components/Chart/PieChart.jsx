@@ -45,6 +45,7 @@ export default function App() {
     setTotalPrice(p);
   }, [totalPrice]);
 
+  
   return (
     <PieChart width={500} height={500}>
       <Pie

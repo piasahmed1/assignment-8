@@ -11,7 +11,7 @@ const Banner = () => {
             <input
               type="text"
               placeholder="Search here..."
-              className="rounded-lg md:w-[470px] h-12 border border-[#DEDEDE] outline-none md:rounded-none md:rounded-l-lg px-7"
+              className="rounded-lg md:w-[470px] h-12 border border-[#dededef1] outline-none md:rounded-none md:rounded-l-lg px-7"
             />
             <input
               type="submit"

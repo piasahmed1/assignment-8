@@ -30,7 +30,6 @@ const DonationPage = () => {
     content = <p className="text-xl font-bold text-center">You Have No Donation !</p>;
   }
 
-
   return (
     <section>
       <ContentWrapper>
