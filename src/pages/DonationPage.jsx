@@ -20,7 +20,8 @@ const DonationPage = () => {
         : [];
     setMyDonation(myDonationData);
   }, [data]);
-  // decide what content willbe show
+
+  
   let content = null;
   if (myDonation.length > 0) {
     content = myDonation

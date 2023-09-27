@@ -4,14 +4,14 @@ const Banner = () => {
     <section className="banner w-full h-[600px] flex justify-center items-center">
       <ContentWrapper>
         <div className="flex flex-col justify-center items-center mx-auto">
-          <h1 className="text-center text-2xl md:text-5xl font-bold not-italic text-[#0B0B0B]">
+          <h1 className="text-center text-2xl md:text-5xl font-bold not-italic text-[#0b0b0bf5]">
             I Grow By Helping People In Need
           </h1>
           <div className="flex flex-col space-y-5 md:space-y-0 md:flex-row md:w-[582px] mt-10">
             <input
               type="text"
               placeholder="Search here..."
-              className="rounded-lg md:w-[470px] h-12 border border-[#dededef1] outline-none md:rounded-none md:rounded-l-lg px-7"
+              className="rounded-lg md:w-[470px] h-12 border border-[#dededeef] outline-none md:rounded-none md:rounded-l-lg px-7"
             />
             <input
               type="submit"

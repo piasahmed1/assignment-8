@@ -28,8 +28,8 @@ const Details = () => {
     const reserve = saveDatatoLocalStorage(id, price);
     if (reserve) {
       MySwal.fire({
-        title: <strong>Good job!</strong>,
-        html: <i>You Doneted Succefully !</i>,
+        title: <strong>Great Job!</strong>,
+        html: <i>Doneted Succefully !</i>,
         icon: "success",
         showConfirmButton: false,
         timer: 1500,
@@ -37,7 +37,7 @@ const Details = () => {
     } else {
       MySwal.fire({
         title: <strong>Sorry</strong>,
-        html: <i>You Already Doneted Here !</i>,
+        html: <i>Already Doneted Here !</i>,
         icon: "info",
         showConfirmButton: false,
         timer: 1500,
