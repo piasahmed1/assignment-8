@@ -22,6 +22,6 @@ when user will see fund details page where user will see a donet button this but
 - Donate to a Campaign
 - Campaigns Search
 - Campaigns Statistics
-- Toast Notifications show
+- Toast Notifications showing
 - Donation Storage with Local Storage
 - Responsive for all of devices
