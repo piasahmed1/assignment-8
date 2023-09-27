@@ -1,32 +1,12 @@
-import { useEffect } from "react";
-import ContentWrapper from "../ContentWrapper/ContentWrapper";
-import { useState } from "react";
+
 import Donation from "./Donation";
 
-const DonationList = () => {
-  const [donations, setDonations] = useState([]);
 
-  useEffect(() => {
-    fetch("/donation.json")
-      .then((res) => res.json())
-      .then((data) => setDonations(data));
-  }, []);
-
-
+const DonationList = ({campaign}) => {
   
-  let content = null;
-  if (donations.length > 0) {
-    content = donations.map((donation) => (
-      <Donation key={donation.id} donation={donation} />
-    ));
-  }
   return (
-    <section className="py-32">
-      <ContentWrapper>
-        <div className="grid gap-6 md:ml-10 lg:ml-0 place-content-center md:grid-cols-2  lg:grid-cols-4 ">
-          {content}
-        </div>
-      </ContentWrapper>
+    <section className="max-w-screen-xl mx-auto grid gap-5 md:grid-cols-2 lg:grid-cols-4 mt-20 mb-20">
+      {campaign?.map(data => <Donation key={data.id} cardData = {data} ></Donation>)}
     </section>
   );
 };

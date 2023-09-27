@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
+
 import { Link } from "react-router-dom";
-const Donation = ({ donation }) => {
-  const {id,title,picture,category,category_bg,card_bg,text_and_button_bg,} = donation || {};
+const Donation = ({ cardData }) => {
+  const {id,title,picture,category,category_bg,card_bg,text_and_button_bg,} = cardData || {};
 
 
   return (
@@ -36,8 +36,5 @@ const Donation = ({ donation }) => {
     </div>
   );
 
-};
-Donation.propTypes = {
-  donation: PropTypes.object,
 };
 export default Donation;
